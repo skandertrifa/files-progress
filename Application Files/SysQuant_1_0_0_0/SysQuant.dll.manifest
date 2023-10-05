@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SysQuant.exe" version="1.0.0.0" publicKeyToken="3ccd7ffeec84be72" language="en-US" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SysQuant.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="en-US" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="14336">
       <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2lnC0sIdWR4ZNuV6vgN6GkkrMfHSPhM9mjRWX0RygII=</dsig:DigestValue>
+        <dsig:DigestValue>xNMUJrujpT9rl05V0N0l0ietZE9edC2PojnCiyTLnCY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1232,22 +1232,22 @@
       <dsig:DigestValue>88nnSpOcqJZ2rFz4EJhyXOm1Gs0HDYwd2m5YT6BRHbU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SysQuant.dll" size="95656">
+  <file name="SysQuant.dll" size="94720">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>W/tQZECVpvxafh418V2NBM3xTzqt8qb2CN/FV166sEc=</dsig:DigestValue>
+      <dsig:DigestValue>p+i2iWbmnz0inSZJpDAHXgcJEZYC7HZKpecYulEq4lA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SysQuant.exe" size="149416">
+  <file name="SysQuant.exe" size="148480">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1Ww9J/X+VQh+E72gqsjvXVhAHhdP7wJ+ktmJo6fctIs=</dsig:DigestValue>
+      <dsig:DigestValue>vhGj6/ZBmzfQ+T2vLl+02ujPoZ2WrJZ+fOmcGu4NfZE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SysQuant.runtimeconfig.json" size="380">
@@ -3050,4 +3050,4 @@
       <dsig:DigestValue>1m/GkXcBMZCydBqxxxJdOwgZzqEgxZ27k+D9s7aRzO8=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=SKANDER\Skan" issuerKeyHash="bebdbb1431ee599abd2c165e0618df1fcdebb005" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8HUKWPwfIRBnlaHM0Dk2B8Ejp7d2wZTc6shfsattTdc=</DigestValue></Reference></SignedInfo><SignatureValue>SlEhOARrs88edsniSBmCd5CpgjktYiDS9Vhi2tQ2F8g+hLjuLhcSRtWcuWzBCkbsce3qOPtiK/VQwmfYFeAJZAxnBpr0WEqgMTaR24rglZlURo70LVBfdE+jXCejTzQO3K/MfE1qpX4Dl1hA07JU7iR4wjqwDaVIKj7Mu9y1GuI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rauAiPt2NhuZ0naXkBFoT6u/rTPoHHuyrEVW1liEooq8015OMv4j7ZDTAhwpFAR1wccwULLea+N27iJtxjAUJN9nmGzD6kDtk1SG6V6DdnjZADXRH/mkedWn28l1bqRLzfAzRiIE5iyd793LEPkrk88yUB0peUS4G02Jre85xeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d74d6dabb15fc8eadc94c176b7a723c1073639d0cca1956710211ffc580a75f0" Description="" Url=""><as:assemblyIdentity name="SysQuant.exe" version="1.0.0.0" publicKeyToken="3ccd7ffeec84be72" language="en-US" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SKANDER\Skan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Tc7oOIAt+7YvZlqOSPSUj4uNer8/x+YNMKG1iBTwO4g=</DigestValue></Reference></SignedInfo><SignatureValue>Q1Z0XVaq+x4OzqKXdR9hh/qkYChHBdxjRNh2ynNkDkwr5qja9ww8JBxG3+yLdk42hfuTPC4BO3LsZsUqujsroxNEk9ueZiuF1OirJO9cRKy0lvsI3jYKPeV5YQ03V9XAEi4oBG1Li3vg9AOWouG9pdp/hNGEBgvvk/LJp3cn4oE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rauAiPt2NhuZ0naXkBFoT6u/rTPoHHuyrEVW1liEooq8015OMv4j7ZDTAhwpFAR1wccwULLea+N27iJtxjAUJN9nmGzD6kDtk1SG6V6DdnjZADXRH/mkedWn28l1bqRLzfAzRiIE5iyd793LEPkrk88yUB0peUS4G02Jre85xeE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQGyYYLs4pxZ1GM8gq2XKZGDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUwBLAEEATgBEAEUAUgBcAFMAawBhAG4wHhcNMjMxMDA0MTUwODE4WhcNMjQxMDAzMjEwODE4WjAjMSEwHwYDVQQDHhgAUwBLAEEATgBEAEUAUgBcAFMAawBhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK2rgIj7djYbmdJ2l5ARaE+rv60z6Bx7sqxFVtZYhKKKvNNeTjL+I+2Q0wIcKRQEdcHHMFCy3mvjdu4ibcYwFCTfZ5hsw+pA7ZNUhuleg3Z42QA10R/5pHnVp9vJdW6kS83wM0YiBOYsne/dyxD5K5PPMlAdKXlEuBtNia3vOcXhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcXMLd0bdv79041QjBFb7M5a/9JEMVno0as7TmtM7jn60MdAQ1igeJYUn2iW9IxmDGpkYlTCLqHUNMXlD1MhEMMlxCi6tOmmdj2MmAGIkevYryEpUdSlMI9mOM3TgyXNlRhLicrqJTqTuBXMDa7mDaUHCekf1GLcuZGqpa56DWZo=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+</asmv1:assembly>
